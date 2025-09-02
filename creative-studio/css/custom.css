@@ -1,0 +1,76 @@
+/*-- Use For Custom Styling --*/
+
+/*move navigation to top on small devices in index.html*/
+@media(max-width:991px){
+    .main-page-nav.bottom-nav {
+        bottom: auto !important;
+    }
+}
+
+
+/*background image on index top*/
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: 100vw calc(100vh - 70px);
+    background-repeat: no-repeat;
+}
+
+@media(max-width:991px) {
+    body {
+        background-size: 100vw auto;
+    }
+    .header-main .main-page-nav.nav-box-shadow {
+        box-shadow: none;
+    }
+}
+
+@media(max-width:767px) {
+    body {
+        background-size: 100vw auto;
+    }
+    #home.home-banner .container{
+        transform: translateY(10px);
+    }
+    #home.home-banner img {
+        max-width: 120px;
+    }
+    #home.home-banner .heading {
+        font-size: 27px !important;
+        margin: 10px 0 !important;
+        line-height: 35px !important;
+    }
+    #home.home-banner p{
+        font-size: 13px;
+    }
+
+
+}
+@media(max-width:767px) {
+    body {
+        background-size: 100vw 25vh;
+    }
+}
+
+
+/*blog and categories styling*/
+.categories-container .categories-name a p {
+    color: #007bff;
+    font-weight: 600;
+}
+
+    .categories-container .categories-name a p:hover {
+        color: #212622;
+    }
+
+        .categories-container .categories-name a p:hover span {
+            background-color: #212622;
+        }
+
+.post-container .single-post a {
+    color: #007bff;
+    font-weight: 600;
+}
+
+    .post-container .single-post a:hover {
+        color: #212622;
+    }
