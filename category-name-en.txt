@@ -1,0 +1,5 @@
+                            <div class="categories-name">                            <div class="categories-name">
+                                <a href="smth1" title="smth2">
+                                    <p class="font-16 color-grey text-capitalize"><i class="fa fa-angle-right font-14 color-blue mr-1"></i> smth3 <span>smth4</span> </p>
+                                </a>
+                            </div>
