@@ -1,0 +1,20 @@
+					<div class="blog-box heading-space-half">
+                        <!-- Blog List Inner -->
+                        <div class="blog-listing-inner news_item">
+                            <div class="news_desc">
+								<h3 class="font-weight-normal" itemprop="name"><a href="pisica-este-cu-catelul.html" class="color-black">Pisica este cu catelul in cusca</a></h3>
+                                <div class="blog-post mt-25px mb-20px d-flex align-items-center flex-wrap flex-lg-row justify-content-start">
+                                    <!--STARTDATES-->
+                                    <i class="fa fa-calendar mx-1"></i>
+                                    <a href="javascript:void(0)" class="color-black">On Februarie 10, 2022</a>
+									<div class="color-black mt-lg-0" id="hidden">, in</div>
+                                    <a href="https://neculaifantanaru.com/leadership-fx-intensive.html" title="Vezi toate articolele din Leadership Y4-Titanium" class="color-green font-weight-600 mx-1" id="hidden"> in Leadership Y4-Titanium</a>
+                                    <a href="javascript:void(0)" id="hidden2" class="color-black mr-2 mt-lg-0">by Neculai Fantanaru</a>
+                                    <!--FINNISHDATES-->
+                                </div>
+
+                                <p class="mb-35px color-grey line-height-25px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                                <a href="pisica-este-cu-catelul.html" class="btn-setting color-black btn-hvr-up btn-blue btn-hvr-pink">read more</a>
+                            </div>
+                        </div>
+                    </div>
