@@ -1,0 +1,102 @@
+PRIMA OARA VERIFICA ASTA in toate fisierele:
+
+            # FIND: <td\s+width="\d+">(<span class="den_articol"><a href=".*?">.*?</a></span>)</td>
+            # REPLACE BY: <td>\1</td>
+
+si
+
+FIND:  <td><p class="den_articol">
+REPLACE BY:  <td><span class="den_articol">
+
+La fisierele de tip 2: Daca iti apar la meniu linkuri gresite la Titlurile articolului, vezi unde se opreste ultimul link bun:
+
+
+La acest rand este problema:
+
+<td><h1 class="den_articol" itemprop="name">  (GRESIT)
+
+Trebuie sa fie asa: 
+
+<td><span class="den_articol">
+
+-------------------------------------------------------
+
+La acest rand este problema:
+
+</a></h1></td>
+
+TREBUIE SCHIMBAT CU:
+
+</a></span></td>
+
+-------------------------------------------------------
+
+
+-----------
+La fisierele de tip 1:
+
+<td><span class="den_articol">
+
+Trebuie schimbat cu asta:
+
+<td><h1 class="den_articol" itemprop="name">
+
+
+
+Lista ENGLEZA CU FISIERE DE TIP 2   (am gasit cautand:  </a></span></td>   , apoi am pus in fisier separat si am eliminat dublurile  ^(.*)$\s+(?=(^.*$\s+)*\1)  )
+
+
+*alpha-leadership.html*;*basic-leadership.html*;*hr-human-resources.html*;*index.html*;*leadership-50-extra.html*;*leadership-7th-edition.html*;*leadership-360.html*;*leadership-and-attitude.html*;*leadership-deluxe.html*;*leadership-ex-elite.html*;*leadership-fusion.html*;*leadership-fx-intensive.html*;*leadership-expert.html*;*leadership-gt-accent.html*;*leadership-impact.html*;*leadership-iq-light.html*;*leadership-journal.html*;*leadership-laws.html*;*leadership-know-how.html*;*leadership-magic.html*;*leadership-mindware.html*;*leadership-n6-celsius.html*;*leadership-on-off.html*;*leadership-plus.html*;*leadership-pro.html*;*leadership-principles.html*;*leadership-q2-sensitive.html*;*leadership-r2-premiere.html*;*leadership-quantum-xx.html*;*leadership-s4-quartz.html*;*leadership-skills-and-abilities.html*;*leadership-sx-experience.html*;*leadership-that-lasts.html*;*leadership-t7-hybrid.html*;*leadership-v8.html*;*leadership-w3-integra.html*;*leadership-xs-analytics.html*;*leadership-x3-silver.html*;*leadership-xxl.html*;*leadership-y4-titanium.html*;*leadership-z3-extended.html*;*leadership-y5-superzoom.html*;*performance-ex-flash.html*;*personal-development.html*;*python-scripts-examples.html*;*qualities-of-a-leader.html*;*real-leadership.html*;*successful-leadership.html*;
+
+
+sau asa
+
+
+alpha-leadership.html
+basic-leadership.html
+hr-human-resources.html
+index.html
+leadership-50-extra.html
+leadership-7th-edition.html
+leadership-360.html
+leadership-and-attitude.html
+leadership-deluxe.html
+leadership-ex-elite.html
+leadership-fusion.html
+leadership-fx-intensive.html
+leadership-expert.html
+leadership-gt-accent.html
+leadership-impact.html
+leadership-iq-light.html
+leadership-journal.html
+leadership-laws.html
+leadership-know-how.html
+leadership-magic.html
+leadership-mindware.html
+leadership-n6-celsius.html
+leadership-on-off.html
+leadership-plus.html
+leadership-pro.html
+leadership-principles.html
+leadership-q2-sensitive.html
+leadership-r2-premiere.html
+leadership-quantum-xx.html
+leadership-s4-quartz.html
+leadership-skills-and-abilities.html
+leadership-sx-experience.html
+leadership-that-lasts.html
+leadership-t7-hybrid.html
+leadership-v8.html
+leadership-w3-integra.html
+leadership-xs-analytics.html
+leadership-x3-silver.html
+leadership-xxl.html
+leadership-y4-titanium.html
+leadership-z3-extended.html
+leadership-y5-superzoom.html
+performance-ex-flash.html
+personal-development.html
+python-scripts-examples.html
+qualities-of-a-leader.html
+real-leadership.html
+successful-leadership.html
