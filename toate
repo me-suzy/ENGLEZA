@@ -1,0 +1,26 @@
+@echo off
+start "cmd1" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\Sedinta 18\Parsing WEBSITE - FINAL.py"
+start "cmd2" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\Sedinta 4 internet\replace_nbsp_cu_un_singur_spatiu_in_tagurile.py"
+start "cmd3" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\Sedinta 4 internet\Sterge spatiile goale duble din tagurile (varianta FINALA).py"
+start "cmd4" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\Sedinta 9 (2022) (EMAIL)\BEBE-PARSING-Python (FARA SUBFOLDER).py"
+start "cmd5" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\2023\Schimba tagurile p class text obisnuit2 in H2 si H3.py"
+start "cmd6" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\2023\Inlocuieste fiecare icon-facebook jpg cu imaginea nou creata.py"
+start "cmd7" ""e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\2023\inlocuieste-fisiere-gata-design-categorii.py"
+start "cmd8" "e:\Carte\BB\17 - Site Leadership\alte\Ionel Balauta\Aryeht\Task 1 - Traduce tot site-ul\Doar Google Web\Andreea\Meditatii\Sedinta 18\ENGLEZA\Parsing WEBSITE - EN.py"
+
+
+
+See 6 other methods below much better, that also run the .py, not just open !
+
+Method 1: https://gist.github.com/me-suzy/746193a040ae510429c8bcdda73325ab
+
+Method 2: https://gist.github.com/me-suzy/b9301c9acd9d5867185782bd38ae3161
+
+Method 3: https://gist.github.com/me-suzy/7e21b0ae011fbb09a97e89fc6d727dc8
+
+Method 4: https://gist.github.com/me-suzy/7e21b0ae011fbb09a97e89fc6d727dc8
+
+Method 5: https://gist.github.com/me-suzy/2b30c1fae2a25b2b0740633bb059f967
+
+Method 6: https://gist.github.com/me-suzy/b36d74fcb7352e58aa64cc9329fe840d
+
