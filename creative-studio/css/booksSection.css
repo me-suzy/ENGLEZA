@@ -1,0 +1,43 @@
+.books-container .books {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.books-container .books .book:not(:last-child){
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+.books-container .books .book-description{
+    color: #464646;
+    font-weight: 400;
+}
+.books-container .books .book-title{
+    margin-bottom: 15px;
+    color: #e90d22;
+    font-weight: bold;
+}
+.books-container .books .book-img{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.books-container .book-read-more{
+    margin-top: 10px;
+}
+.books-container .book-read-more a{
+    color: #007bff;
+    font-weight: 600;
+    cursor: pointer;
+    transition:all 0.3s;
+}
+.books-container .book-read-more a:hover{
+    color: #e90d22;
+}
+
+.books-container .book-read-more i{
+    font-size: 12px;
+    /* transition:transform 0.3s;; */
+}
+.books-container .book-read-more a:hover  i{
+    transform:translateX(1px)
+}
